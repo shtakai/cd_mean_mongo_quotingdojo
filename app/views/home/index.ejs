@@ -3,8 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
   <h1>index</h1>
+  <div class="container">
+    <h3>Welcome to Quoting Dojo</h3>
+    <div>
+      <form action="" method="post">
+        <div>
+          <label for="name">Your name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="quote">Your quote:</label>
+          <textarea id="quote" name="quote" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Add" class="btn btn-primary">
+          <a href="/quotes" class="btn btn-success">Skip to quote</a>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

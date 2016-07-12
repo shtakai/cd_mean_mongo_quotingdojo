@@ -12,7 +12,11 @@ const home = require('../app/controllers/home');
 
 module.exports = function (app, passport) {
 
+  /**
+   * routing sestting
+   */
   app.get('/', home.index);
+  app.get('/quotes', home.quotes);
 
   /**
    * Error handling
