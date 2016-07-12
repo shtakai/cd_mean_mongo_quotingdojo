@@ -4,7 +4,7 @@
  */
 
 module.exports = {
-  db: 'mongodb://localhost/your_project_development',
+  db: 'mongodb://localhost/quoting_dojo_development',
   facebook: {
     clientID: 'APP_ID',
     clientSecret: 'SECRET',
