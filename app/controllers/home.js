@@ -13,9 +13,16 @@ exports.index = function (req, res) {
 // get /qutotes
 exports.getQuote = function (req, res) {
   console.log('getQuote');
-  //quote.name = 'test';
-  //quote.save(function(err){});
-  res.render('home/index', { reqCsrf:req.csrfToken()});
+  Quote.find({},{},{sort:{createdAt: -1}}, function(err, _quotes){
+    if(err){
+      console.log('something wrong');
+      res.json(err);
+    }else{
+
+    }
+    console.log(`quotes: ${_quotes}`);
+    res.render('home/quotes', {quotes: _quotes});
+  });
 };
 exports.postQuote = function (req, res) {
   console.log('postQuote');
@@ -39,7 +46,7 @@ exports.postQuote = function (req, res) {
         reqCsrf:req.csrfToken()
       });
     }else{
-      res.render('home/index', { reqCsrf:req.csrfToken()});
+      res.redirect('/');
     }
   })
 };
