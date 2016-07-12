@@ -10,8 +10,12 @@
   <h1>index</h1>
   <div class="container">
     <h3>Welcome to Quoting Dojo</h3>
+    <% if (typeof $_SESSION !== 'undefined'){ %>
+      <div class="alert alert-danger"><%= $_SESSION %></div>
+    <% } %>
     <div>
-      <form action="" method="post">
+      <form action="/quotes" method="post">
+        <input type="hidden" name="_csrf" value="<%= reqCsrf %>">
         <div>
           <label for="name">Your name:</label>
           <input type="text" id="name" name="name">

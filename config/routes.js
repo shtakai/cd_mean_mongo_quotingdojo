@@ -16,7 +16,8 @@ module.exports = function (app, passport) {
    * routing sestting
    */
   app.get('/', home.index);
-  app.get('/quotes', home.quotes);
+  app.get('/quotes', home.getQuote);
+  app.post('/quotes', home.postQuote);
 
   /**
    * Error handling
