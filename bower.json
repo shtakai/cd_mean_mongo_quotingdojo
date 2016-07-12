@@ -1,0 +1,21 @@
+{
+  "name": "cd_mean_mongo_quotingdojo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Alyson Takai <shtakai@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/shtakai/cd_mean_mongo_quotingdojo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.0"
+  }
+}
