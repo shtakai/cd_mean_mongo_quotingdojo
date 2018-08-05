@@ -2,7 +2,7 @@
 [![Dependencies](https://img.shields.io/david/madhums/node-express-mongoose.svg?style=flat)](https://david-dm.org/madhums/node-express-mongoose)
 [![Code Climate](https://codeclimate.com/github/madhums/node-express-mongoose/badges/gpa.svg)](https://codeclimate.com/github/madhums/node-express-mongoose)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/madhums/node-express-mongoose?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Gittip](https://img.shields.io/gratipay/madhums.svg?style=flat)](https://www.gratipay.com/madhums/)
+[![Gittip](https://img.shields.io/gratipay/madhums.svg?style=flat)](https://www.gratipay.com/madhums/) [![GuardRails badge](https://badges.production.guardrails.io/shtakai/cd_mean_mongo_quotingdojo.svg)](https://www.guardrails.io)
 
 ## Node Express Mongoose
 
